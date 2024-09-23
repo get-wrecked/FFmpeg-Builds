@@ -4,7 +4,7 @@ SCRIPT_REPO="https://gitlab.com/libssh/libssh-mirror.git"
 SCRIPT_COMMIT="bd091239d3d081748d9704ec3429606901000dca"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # unused by Medal
 }
 
 ffbuild_dockerbuild() {

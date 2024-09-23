@@ -5,7 +5,7 @@ SCRIPT_COMMIT="e34e772e47b01169b6f75a4589c056624ea886a4"
 
 ffbuild_enabled() {
     [[ $TARGET == win32 ]] && return -1
-    return 0
+    return -1 # using SVT-AV1
 }
 
 ffbuild_dockerbuild() {

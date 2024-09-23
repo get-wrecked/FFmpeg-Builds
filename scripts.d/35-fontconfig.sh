@@ -4,7 +4,7 @@ SCRIPT_REPO="https://gitlab.freedesktop.org/fontconfig/fontconfig.git"
 SCRIPT_COMMIT="70b60ca46107fc4774d163773febe974c76b2ee7"
 
 ffbuild_enabled() {
-    return 0
+    return -1 # unused by Medal
 }
 
 ffbuild_dockerbuild() {
