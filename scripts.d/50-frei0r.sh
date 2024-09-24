@@ -6,7 +6,7 @@ SCRIPT_COMMIT="cbb507dbbccc87b0d8e887e75ad4bff732f63e3f"
 ffbuild_enabled() {
     [[ $VARIANT == lgpl* ]] && return -1
     [[ $ADDINS_STR == *4.4* ]] && return -1
-    return 0
+    return -1 # unused by Medal
 }
 
 ffbuild_dockerbuild() {
