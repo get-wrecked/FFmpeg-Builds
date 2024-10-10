@@ -42,6 +42,7 @@ cat <<EOF >"$BUILD_SCRIPT"
         git apply "../../medal/0008-Add-eval-functions-71.patch"
     elif (( $ffmpeg_ver >= 700 )); then
         git apply "../../medal/0008-Add-eval-functions-70.patch"
+        git apply "../../medal/see-fix.patch"
     fi
 
     git apply "../../medal/0001-avfilter-select-Add-option-to-accumulate-MAFD.patch"
